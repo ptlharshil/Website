@@ -1,0 +1,47 @@
+.navigation{
+    position: sticky;
+    top: 0;z-index: 1;
+}
+#navi{
+    height: 230px;
+    width: 195px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    top: -24px;
+    left: 20px;
+}
+.hamburger{
+    display: inline-block;
+    border-radius:12px;
+    border: 2px solid black;
+    padding-top: 5px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    top: 23px;
+    left: 20px;
+
+}
+@media only screen and (max-width: 600px){
+    
+    
+    
+}
+
+li{
+    margin-top: 10px;
+    padding: 5px;
+}
+.name{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.Name{
+    margin-left: 65px;
+    margin-top: 33px;
+    position: absolute;
+    z-index: 999;
+}

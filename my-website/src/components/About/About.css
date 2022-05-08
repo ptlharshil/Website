@@ -1,0 +1,38 @@
+.aboutCont{
+    position: relative;
+
+}
+
+.aboutTitle{
+    text-align: center;
+}
+.fullStack{
+    text-align: center;
+}
+.fs{
+    font-size: 80px;
+    
+}
+@media only screen and (max-width: 600px){
+    
+    .fs{font-size: 55px;}
+    
+}
+
+@media only screen and (min-width:600px) and ( max-width: 900px){
+    
+    .fs{font-size: 65px;}
+    
+}
+@media only screen and (min-width: 900px){
+    
+    .fs{font-size: 70px;}
+    
+}
+.uiux{
+    text-align: center; 
+}
+
+.analyst{
+    text-align: center;
+}

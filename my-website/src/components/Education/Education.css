@@ -1,0 +1,53 @@
+.eduTitle{
+    text-align: center;
+    font-size:70px;
+}
+.toggleBtn{
+    margin: auto;
+}
+.eduCard{
+    margin: auto;
+    width: 30%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+@media only screen and (max-width: 600px){
+    
+    .eduCard{width: 60%;
+        height: 50vh;}
+    
+}
+
+@media only screen and (min-width:600px) and (max-width: 900px){
+    
+    .eduCard{width: 45%;
+        height: 50vh;}
+    
+}
+@media only screen and (min-width: 900px) and (max-width: 1250px){
+    
+    .eduCard{width: 30%;
+        height: 50vh;}
+    
+}
+.mu{
+    text-align: center;
+}
+.neupic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.neuPic{
+    margin-top: 30px;
+width: 100px;
+height: 100px;
+}
+.neu{
+    text-align: center;
+}

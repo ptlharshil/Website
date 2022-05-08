@@ -1,0 +1,65 @@
+
+.navbar{
+    float: left;
+    position: absolute;
+}
+
+.contact{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.aboutContainer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 591px;
+    background-color: antiquewhite;
+}
+@media only screen and (max-width: 600px){
+    
+    .aboutContainer{margin-top: -13px;}
+    
+}
+
+@media only screen and (max-width: 900px){
+    
+    .aboutContainer{margin-top: -13px;}
+    
+}
+@media only screen and (min-width: 900px) and (max-width: 1250px){
+    
+    .aboutContainer{margin-top: -13px;}
+    
+}
+.educationContainer{
+    position: absolute;
+    top:1183px;
+    width: 100%;
+    height: 100vh;
+    background-color: lightcoral;
+}
+@media only screen and (max-width: 600px){
+    
+    .educationContainer{margin-top: -27px;}
+    
+}
+
+@media only screen and (max-width: 900px){
+    
+    .educationContainer{margin-top: -27px;}
+    
+}
+@media only screen and (min-width: 900px) and (max-width: 1250px){
+    
+    .educationContainer{margin-top: -27px;}
+    
+}
+
+.experienceContainer{
+    position: absolute;
+    top:1774px;
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+}
