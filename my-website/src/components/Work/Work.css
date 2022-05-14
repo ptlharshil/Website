@@ -64,7 +64,34 @@
       0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
       0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
+.launch{
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 10px;
+  
+}
+.launch:hover{
+  background-color: rgb(129, 60, 60);
+  color: white;
+  padding: 2px;
+
+}
 .JavaCard{
+
+
+  width: 480px;
+    height: 360px;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: auto;
+
+/*     
     width: 44%;
     height: 70vh;
     background-color: aliceblue;
@@ -74,5 +101,38 @@
     left: 350px;
     box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
       0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075); */
+}
+
+@media only screen and (max-width: 600px){
+    
+  .JavaCard{
+    /* position: absolute;
+    bottom: 30px;
+    left: 46px;
+    width: 80%; */
+    width: 70%;
+  }
+  
+}
+
+@media only screen and (min-width:600px) and (max-width: 900px){
+  
+  .JavaCard{
+    /* position: absolute;
+    bottom: 30px;
+    left: 130px;
+    width: 64%; */
+    width: 50%;
+  }
+  
+}
+@media only screen and (min-width: 900px) and (max-width: 1300px){
+  
+  .JavaCard{
+    /* position: absolute;
+    bottom: 30px;
+    left: 258px; */
+  width: 40%;}
+  
 }

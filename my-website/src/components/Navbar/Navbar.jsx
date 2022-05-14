@@ -27,7 +27,7 @@ const Navbar = () => {
   <motion.div className='Name'
   variants={navi}
   initial="stop"
-  animate="move"><b>Harshil Patel</b></motion.div>
+  animate="move"><b>Harshil</b></motion.div>
   <motion.div className='navigation'
   variants={navi}
   initial="stop"
