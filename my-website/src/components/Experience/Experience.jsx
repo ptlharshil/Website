@@ -64,7 +64,7 @@ const Experience = () => {
           >
             {selectedTab.label=="Developer" ?
             <div className='development'> 
-            <img src={Benu} alt="Benu" />
+            <img className='benu' src={Benu} alt="Benu" />
             <h3>Full Stack Web App Developer Co-op</h3>
             <h4>From: Jan 2022 To: Aug 2022</h4>
             <h5>*Debugged *Fixed *Enhanced UI/UX *Optimized *Tested</h5>

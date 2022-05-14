@@ -12,7 +12,25 @@
     flex-direction: column;
     margin: auto;
 }
+@media only screen and (max-width: 600px){
+    
+  .window{width: 70%;
+      height: 60vh;}
+  
+}
 
+@media only screen and (min-width:600px) and (max-width: 900px){
+  
+  .window{width: 50%;
+      height: 60vh;}
+  
+}
+@media only screen and (min-width: 900px) and (max-width: 1250px){
+  
+  .window{width: 40%;
+      height: 60vh;}
+  
+}
 nav {
 
     background: #fdfdfd;
@@ -130,6 +148,26 @@ nav {
   .development{
       text-align: center;
   }
+  @media only screen and (max-width: 600px){
+    .benu{
+      width: 70%;
+    }
+    
+    
+}
+
+@media only screen and (min-width:600px) and (max-width: 900px){
+    .benu{
+      width: 70%;
+    }
+    
+}
+@media only screen and (min-width: 900px) and (max-width: 1250px){
+    .benu{
+      width: 70%;
+    }
+    
+}
   .ei{
       width: 100px;
       height: 100px;

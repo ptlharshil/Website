@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact.jsx'
 import About from './components/About/About.jsx';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
+import Work from './components/Work/Work.jsx';
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
 
     <div className='experienceContainer'>
         <Experience/>
+    </div>
+
+    <div className='workContainer'>
+        <Work/>
     </div>
     </>
   );

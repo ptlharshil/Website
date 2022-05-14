@@ -1,0 +1,78 @@
+.workTitle{
+    
+    text-align: center;
+    font-size:70px;
+}
+.workWrapper{
+    /* display: inline-block; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.workWrap1{
+    display: inline-block;
+    margin: 10px;
+}
+.workWrap2{
+    display: inline-block;
+    margin: 10px;
+}
+.Java{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.SQL{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.Spring{
+    background-color: bisque;
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+
+}
+.React{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.JavaCard{
+    width: 44%;
+    height: 70vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 350px;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
