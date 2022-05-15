@@ -13,7 +13,8 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    top: 605px;
+    top: 102vh;
+    /* 605px */
     background-color: antiquewhite;
 }
 @media only screen and (max-width: 600px){
@@ -34,7 +35,8 @@
 }
 .educationContainer{
     position: absolute;
-    top:1210px;
+    top:204vh;
+    /* 1210px */
     width: 100%;
     height: 100vh;
     background-color: lightcoral;
@@ -58,7 +60,8 @@
 
 .experienceContainer{
     position: absolute;
-    top:1813px;
+    top:306vh;
+    /* 1813px */
     width: 100%;
     height: 100vh;
     background-color: burlywood;
@@ -83,7 +86,8 @@
 
 .workContainer{
     position: absolute;
-    top:2363px;
+    top:399vh;
+    /* 2363px */
     width: 100%;
     height: 100vh;
     background-color: rgb(129, 60, 60);

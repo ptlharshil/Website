@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./Work.css"
 import LaunchIcon from '@material-ui/icons/Launch';
 import {animate, AnimatePresence, motion, useAnimation} from "framer-motion"
-
 const Work = () => {
   const [open,setOpen]=useState(false)
   const [show,setShow]=useState(false)
@@ -84,7 +83,7 @@ const Work = () => {
       whileInView="visible"
       exit="exit"
       >
-        Java
+        <img src="" alt="Java" />
         <button onClick={handleClick}>x</button>
       </motion.div>
       
