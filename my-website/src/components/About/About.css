@@ -1,38 +1,47 @@
 .aboutCont{
-    position: relative;
-
+    margin: 0;
+  position: relative;
+  top: 15%;
 }
 
 .aboutTitle{
     text-align: center;
 }
 .fullStack{
+   
     text-align: center;
 }
 .fs{
-    font-size: 80px;
+    font-size: 30px;
     
 }
 @media only screen and (max-width: 600px){
     
-    .fs{font-size: 55px;}
+    .fs{
+        
+        font-size: 45px;}
     
 }
 
 @media only screen and (min-width:600px) and ( max-width: 900px){
     
-    .fs{font-size: 65px;}
+    .fs{  
+        font-size: 45px;}
     
 }
 @media only screen and (min-width: 900px){
     
-    .fs{font-size: 70px;}
+    .fs{
+        
+        font-size: 55px;}
     
 }
 .uiux{
+   
     text-align: center; 
 }
 
 .analyst{
+    
     text-align: center;
 }

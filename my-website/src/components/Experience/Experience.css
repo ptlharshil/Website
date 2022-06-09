@@ -152,7 +152,10 @@ nav {
     .benu{
       width: 70%;
     }
-    
+    .window {
+      width: 480px;
+      height: 360px;
+    }
     
 }
 
@@ -160,13 +163,19 @@ nav {
     .benu{
       width: 70%;
     }
-    
+    .window {
+      width: 480px;
+      height: 360px;
+    }
 }
 @media only screen and (min-width: 900px) and (max-width: 1250px){
     .benu{
       width: 70%;
     }
-    
+    .window {
+      width: 480px;
+      height: 360px;
+    }
 }
   .ei{
       width: 100px;
