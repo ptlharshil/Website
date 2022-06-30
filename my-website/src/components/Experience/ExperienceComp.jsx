@@ -26,6 +26,7 @@ const Experience = () => {
 
   return (
     <>
+    <div className='exp'>
     <motion.div
     variants={abtVariant}
     initial="hidden"
@@ -81,7 +82,7 @@ const Experience = () => {
         </AnimatePresence>
       </main>
     </div>
-    
+    </div>
     </>
   )
 }

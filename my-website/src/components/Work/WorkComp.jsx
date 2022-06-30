@@ -36,6 +36,7 @@ const Work = () => {
   }
   return (
     <>
+    <div className='wrk'>
     <motion.div
     variants={abtVariant}
     initial="hidden"
@@ -109,7 +110,7 @@ const Work = () => {
            It connects the victim to doctors, psychologists, help 
            providers and pharmacy
         </p>
-        <h1 className='github'><a href="https://github.com/ajinkyabhabad/AED_Project.git"><GitHubIcon/></a></h1>
+        <h1 className='github'><a href="https://github.com/ajinkyabhabad/AED_Project.git" className='github'><GitHubIcon/></a></h1>
         
       </motion.div>
       
@@ -129,7 +130,7 @@ const Work = () => {
         trourists to plan their tour. It is developed using MongoDB, Express.js, React.js 
         and Node.js. 
         </p>
-        <h1 className='github'><a href="https://github.com/ptlharshil/Pinned-Travel_Reviews_Web_App.git"><GitHubIcon/></a></h1>
+        <h1 className='github'><a href="https://github.com/ptlharshil/Pinned-Travel_Reviews_Web_App.git" className='github'><GitHubIcon/></a></h1>
         
       </motion.div>
 
@@ -150,7 +151,7 @@ const Work = () => {
         the rental bikes to improve efficiency.
 
         </p>
-        <h1 className='github'><a href="https://github.com/ptlharshil/Rental_Bike_DBMS.git"><GitHubIcon/></a></h1>
+        <h1 className='github'><a href="https://github.com/ptlharshil/Rental_Bike_DBMS.git" className='github'><GitHubIcon/></a></h1>
         
       </motion.div>
 
@@ -169,12 +170,13 @@ const Work = () => {
         <p className='paragraph'>Research-pedia is a web application to connect students
         and researchers to collaborate and work on research papers.
         </p>
-        <h1 className='github'><a href="https://github.com/ptlharshil/Research-pedia.git"><GitHubIcon/></a></h1>
+        <h1 className='github'><a href="https://github.com/ptlharshil/Research-pedia.git" className='github'><GitHubIcon/></a></h1>
         
       </motion.div>
 
       }
       </AnimatePresence>
+      </div>
     </>
   )
 }

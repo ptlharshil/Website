@@ -1,45 +1,40 @@
 
 import './App.css';
-import Home from './components/Home Page/Home.jsx';
-import Navbar from './components/Navbar/Navbar';
-import Contact from './components/Contact/Contact.jsx'
-import About from './components/About/About.jsx';
-import Education from './components/Education/Education';
-import Experience from './components/Experience/Experience';
-import Work from './components/Work/Work.jsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AboutPage from './Pages/About/AboutPage.jsx';
+import HomePage from './Pages/Home/HomePage.jsx';
+import EducationPage from './Pages/Education/EducationPage.jsx';
+import WorkPage from './Pages/Work/WorkPage.jsx';
+import ExperiencePage from './Pages/Experience/ExperiencePage.jsx';
+
 
 function App() {
   return (
     <>
-    <div className='container'>
-      
-      <div className='home'>
-        <Home/>
-      </div> 
-      <div className='navbar'>
-        <Navbar/>
-      </div>
-      <div className='contact'>
-        <Contact/>
-      </div>
-      
-    </div> 
-    
-    <div className='aboutContainer'>
-        <About/>
-    </div>
-
-    <div className='educationContainer'>
-        <Education/>
-    </div>
-
-    <div className='experienceContainer'>
-        <Experience/>
-    </div>
-
-    <div className='workContainer'>
-        <Work/>
-    </div>
+    <HomePage />
+    <AboutPage />
+    <EducationPage/>
+    <ExperiencePage/>
+    <WorkPage/>
+    {/* <BrowserRouter>
+      <Routes> */}
+        {/* <Route  path='/' element={<HomePage/>}/> */}
+          
+        {/* </Route> */}
+        {/* <Route path='/about' element={<AboutPage/>}/> */}
+          
+        {/* </Route> */}
+        {/* <Route path='/education' element={<EducationPage/>}/> */}
+          
+        {/* </Route> */}
+        {/* <Route path='/experience' element={<ExperiencePage/>}/> */}
+          
+        {/* </Route> */}
+        {/* <Route path='/work' element={<WorkPage/>}/> */}
+          
+        {/* </Route> */}
+    {/* </Routes>
+    </BrowserRouter> */}
     </>
   );
 }

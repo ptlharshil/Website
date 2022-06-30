@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
+import { Link } from "react-scroll";
 import {animate, motion, useAnimation} from "framer-motion"
 const Navbar = () => {
   const [navbar,setNavbar]=useState(true)
@@ -27,7 +28,15 @@ const Navbar = () => {
   <motion.div className='Name'
   variants={navi}
   initial="stop"
-  animate="move"><b>Harshil</b></motion.div>
+  animate="move"><Link 
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                ><b>Harshil</b></Link>
+  </motion.div>
   <motion.div className='navigation'
   variants={navi}
   initial="stop"
@@ -36,7 +45,7 @@ const Navbar = () => {
     <button className='hamburger' onClick={()=>setNavbar(!navbar)}>
         {navbar==true?<CloseIcon/>:<MenuIcon/>}
       </button> 
-      
+     
       {navbar==true?
       <>
         <motion.div id='navi'
@@ -44,16 +53,61 @@ const Navbar = () => {
         initial="visible"
         >
           <div className='name'>
-          <b>Harshil Patel</b>
+          
+              
+          <Link 
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                // offset={-70}
+                duration={500}><b>Harshil Patel</b></Link>
+              
           </div>
             <ul style={{listStyleType:"none"}}>
-              <li>About</li>
-              <li>Education</li>
-              <li>Experience</li>
-              <li>Work</li>
+              
+                  
+                    <Link 
+                    activeClass="active"
+                    to="aboutCont"
+                    spy={true}
+                    smooth={true}
+                    offset={-111}
+                    duration={500}><li>About</li></Link>
+                  
+                  
+                    <Link 
+                    activeClass="active"
+                    to="edu"
+                    spy={true}
+                    smooth={true}
+                    offset={-49}
+                    duration={500}><li>Education</li> </Link>
+                 
+                 <Link 
+                    activeClass="active"
+                    to="exp"
+                    spy={true}
+                    smooth={true}
+                    offset={-49}
+                    duration={500}>
+                    <li>Experience</li></Link>
+                  
+                    <Link 
+                    activeClass="active"
+                    to="wrk"
+                    spy={true}
+                    smooth={true}
+                    offset={-49}
+                    duration={500}>
+                    <li>Work</li></Link>
+                  
+                
             </ul>
+            
         </motion.div>
       </> : ""}
+      
     </motion.div>
     </>
   )

@@ -69,6 +69,7 @@ const Education = () => {
       }
   return (
     <>
+    <div className='edu'>
     <motion.div
     variants={abtVariant}
     initial="hidden"
@@ -108,6 +109,7 @@ const Education = () => {
         <h4 className='mu'>Electronic Engineering</h4>
     </div>
     </ReactCardFlip>
+    </div>
     </>
     )
 }

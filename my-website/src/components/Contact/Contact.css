@@ -29,3 +29,21 @@ right: 22px;
 top: 15px
 
 }
+.linkedin{
+    color: black;
+}
+.linkedin:hover{
+    color:#0072b1
+}
+.email{
+    color: black;
+}
+.email:hover{
+    color:orange
+}
+.github{
+    color: black;
+}
+.github:hover{
+    color: black;
+}

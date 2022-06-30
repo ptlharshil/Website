@@ -15,9 +15,9 @@ const Contact = () => {
   {contact?
     <div className='connect'>
       <ul style={{listStyle:"none"}}>
-        <li className='li'><LinkedInIcon/></li>
-        <li className='li'><GitHubIcon/></li>
-        <li className='li'><EmailIcon/></li>
+        <li className='li'><a href="https://www.linkedin.com/in/harshilpatel3695/" className='linkedin'><LinkedInIcon/></a></li>
+        <li className='li'><a href="https://github.com/ptlharshil" className='github'><GitHubIcon/></a></li>
+        <li className='li'><a href="mailto:patel.harshil@northeastern.edu" className='email'><EmailIcon/></a></li>
       </ul>
     </div>
     :""
