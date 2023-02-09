@@ -33,6 +33,9 @@
     .aboutContainer{margin-top: -13px;}
     
 }
+@media only screen and (min-width:1301px){
+    .aboutContainer{margin-top: -13px;}
+}
 .educationContainer{
     position: absolute;
     top:204vh;
@@ -57,7 +60,9 @@
     .educationContainer{margin-top: -27px;}
     
 }
-
+@media only screen and (min-width:1301px){
+    .educationContainer{margin-top: -27px;}
+}
 .experienceContainer{
     position: absolute;
     top:306vh;
@@ -83,7 +88,9 @@
     .experienceContainer{margin-top: -40px;}
     
 }
-
+@media only screen and (min-width: 1301px){
+    .experienceContainer{margin-top: -40px;}
+}
 .workContainer{
     position: absolute;
     top:399vh;
