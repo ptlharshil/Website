@@ -55,7 +55,7 @@ const Work = () => {
       transition={{duration:1}}
       onClick={handleClick}
       >
-        Sexual Awareness and Help System
+        Mini Twitter Application on AWS
         {/* <LaunchIcon onClick={handleClick} className="launch" fontSize='small'/> */}
       </motion.div>
       <motion.div
@@ -65,7 +65,7 @@ const Work = () => {
       whileInView="visible"
       onClick={handleClickSQL}
       transition={{duration:2}}>
-        Rental Bike RDBMS
+        HackerRank UX
         {/* <LaunchIcon onClick={handleClick} className="launch" fontSize='small'/> */}
       </motion.div>
       </div>
@@ -104,13 +104,13 @@ const Work = () => {
       >
         
         <button className='close' onClick={handleClick}><b>x</b></button><br />
-        <h1 className='title'>Java</h1>
-        <p className='paragraph'>Sexual Awareness and Help System is a multi-party digital
-           ecosystem application for the victims of sexual abuse. 
-           It connects the victim to doctors, psychologists, help 
-           providers and pharmacy
+        <h1 className='title'>React, AWS</h1>
+        <p className='paragraph'>This application was deployed on AWS (CodeBuid, ECR, ECS, EC2) 
+        using Docker. The aim was to auto scale (scale in and scale out) based on a scheduled 
+        time to meet the demand of the users at peak time taking into consideration the overall
+        cost of running the application.
         </p>
-        <h1 className='github'><a href="https://github.com/ajinkyabhabad/AED_Project.git" className='github'><GitHubIcon/></a></h1>
+        <h1 className='github'><a href="https://github.com/ptlharshil/twte-jwt-DevOps" className='github'><GitHubIcon/></a></h1>
         
       </motion.div>
       
@@ -145,13 +145,13 @@ const Work = () => {
       >
         
         <button className='close' onClick={handleClickSQL}><b>x</b></button><br />
-        <h1 className='title'>SQL</h1>
-        <p className='paragraph'>Rental Bike Relational Database Management System
-        is used for examining the data to determine the regular customers, demand and supply of
-        the rental bikes to improve efficiency.
+        <h1 className='title'>UX (Axure)</h1>
+        <p className='paragraph'>HackerRank UX is a work that applies User Experience concepts 
+        and techniques to improve/redesign the existing HackerRank's UX. Implemented user onboarding,
+        efficient filtering, simplified sign up process, open and closed card sorting
 
         </p>
-        <h1 className='github'><a href="https://github.com/ptlharshil/Rental_Bike_DBMS.git" className='github'><GitHubIcon/></a></h1>
+        <h1 className='github'><a href="https://github.com/ptlharshil/HackerRank_UX_Redesign" className='github'><GitHubIcon/></a></h1>
         
       </motion.div>
 

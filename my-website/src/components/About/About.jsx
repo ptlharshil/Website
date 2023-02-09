@@ -30,7 +30,7 @@ const About = () => {
         initial="hidden"
         whileInView="visible"
         transition={{duration:3}}>
-            <h1 className='fs'>ANALYST</h1>
+            <h1 className='fs'>DevOps Learner</h1>
         </motion.div>
     </div>
 

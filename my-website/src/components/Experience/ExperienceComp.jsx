@@ -2,12 +2,12 @@ import React from 'react'
 import "./Experience.css"
 import {animate, motion, AnimatePresence,useAnimation} from "framer-motion"
 import { useState } from "react"
-import EI from "../../images/ei.jpg"
+import FS from "../../images/download.jfif"
 import Benu from "../../images/Benu.png"
 const Experience = () => {
     const allIngredients = [
-        { icon: "</>", label: "Developer" },
-        { icon: "~>", label: "Analyst" },
+        { icon: "</>", label: "Intern/Co-op" },
+        { icon: "</>", label: "Full Time" },
       ];
       
       const [developer,analyst] = allIngredients;
@@ -63,7 +63,7 @@ const Experience = () => {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.15 }}
           >
-            {selectedTab.label=="Developer" ?
+            {selectedTab.label=="Intern/Co-op" ?
             <div className='development'> 
             <img className='benu' src={Benu} alt="Benu" />
             <h3>Full Stack Web App Developer Co-op</h3>
@@ -72,10 +72,10 @@ const Experience = () => {
             
             </div>
             : <div className='development'> 
-            <img src={EI} alt="EI" className='ei'/>
-            <h3>Electromac Industries (Procurement Analyst)</h3>
-            <h4>From: 2017 To: Aug 2020</h4>
-            <h5>*Leader *Reduced costs *Active Listener *Go-getter</h5>
+            <img src={FS} alt="FS" className='ei'/>
+            <h3>Finacus Solutions (Full Stack Developer)</h3>
+            <h4>From: 2017 To: 2020</h4>
+            <h5>*Optimizer *Reduced latency *Active Listener *Go-getter</h5>
             
             </div>}
           </motion.div>
